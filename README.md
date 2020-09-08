@@ -24,3 +24,28 @@ will print "4" to the console. Both numbers behave as numbers, and so you can do
 print("2+2")
 ```
 then "2+2" will print to the console beacuse "2+2" is a string datatype.
+
+# Adding Strings
+
+You can add strings together! Take this example:
+
+```
+print("Hello," + " everyone!")
+```
+This will print "Hello, everyone! to the console. Let's say you wanted to add together a string and a string variable, it would look something like this:
+
+```
+name = "Sarah"
+print("Hello, "+ name + "!")
+```
+Now if I want to change the name, all I would need to do is change the value of the variable. This is *especially* helpful when I use the variable many times. For example, if I had a block of code that looked like this:
+
+```
+name= "Sarah"
+
+print(name + ", how old are you?")
+print(name + ", when is your birthday?")
+print("My best friend's name is " + name + " too!")
+print("Wow, " + name + " you are so cool!")
+```
+All I would need to do is change the value "Sarah" to a different name one time in the "name=" line (also known as the variable creation statement), and the name will change for each line of code!
