@@ -25,7 +25,7 @@ print("2+2")
 ```
 then "2+2" will print to the console beacuse "2+2" is a string datatype.
 
-# Adding Strings
+# Adding Strings (also known as concatenation)
 
 You can add strings together! Take this example:
 
