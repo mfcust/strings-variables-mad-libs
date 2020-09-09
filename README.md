@@ -49,3 +49,12 @@ print("My best friend's name is " + name + " too!")
 print("Wow, " + name + " you are so cool!")
 ```
 All I would need to do is change the value "Sarah" to a different name one time in the "name=" line (also known as the variable creation statement), and the name will change for each line of code!
+
+# Input function
+
+The input function allows you to take in user input. You provide a string prompt in the parentheses, and then it allows you to type in an answer/input into the console. Typically you would then save this input as a variable like so:
+
+```
+name = input("What is your name?")
+```
+
